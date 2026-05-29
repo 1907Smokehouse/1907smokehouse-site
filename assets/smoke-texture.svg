@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720">
+  <filter id="noise">
+    <feTurbulence type="fractalNoise" baseFrequency=".68" numOctaves="3" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer>
+      <feFuncA type="table" tableValues="0 .18"/>
+    </feComponentTransfer>
+  </filter>
+  <rect width="720" height="720" fill="#171412"/>
+  <rect width="720" height="720" filter="url(#noise)" opacity=".55"/>
+  <path d="M-80 620C90 480 210 715 395 560c160-134 285-20 410-155" fill="none" stroke="#d8a545" stroke-width="2" opacity=".08"/>
+  <path d="M-70 182C108 54 237 252 380 112c165-160 272-6 430-132" fill="none" stroke="#fff8eb" stroke-width="2" opacity=".055"/>
+</svg>
