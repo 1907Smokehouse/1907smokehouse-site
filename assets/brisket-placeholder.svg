@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Smoked brisket placeholder</title>
+  <desc id="desc">A rustic illustrated placeholder for smoked brisket on butcher paper.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#efe0c0"/>
+      <stop offset="1" stop-color="#b8874c"/>
+    </linearGradient>
+    <linearGradient id="bark" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#2a1710"/>
+      <stop offset="0.48" stop-color="#6c2d1d"/>
+      <stop offset="1" stop-color="#15100d"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="1500" fill="#201b17"/>
+  <path d="M100 190 1085 95l20 1198-990 105z" fill="url(#paper)" opacity=".95"/>
+  <g opacity=".14" stroke="#5c331f" stroke-width="3">
+    <path d="M130 255c260 25 520-92 920-44"/>
+    <path d="M145 365c315-20 535 70 915 15"/>
+    <path d="M150 500c310 60 625-60 930 20"/>
+    <path d="M138 655c310-42 650 85 925 12"/>
+    <path d="M148 805c380 72 575-98 920-12"/>
+    <path d="M132 975c355-65 660 40 940 5"/>
+    <path d="M145 1130c310 44 600-50 910 20"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M245 735c10-215 192-360 417-350 270 12 430 182 400 385-34 229-260 355-520 310-212-37-306-167-297-345z" fill="url(#bark)"/>
+    <path d="M315 765c25-145 148-246 325-235 196 12 320 116 298 258-24 158-204 245-390 215-155-25-254-105-233-238z" fill="#8e3b22" opacity=".54"/>
+    <path d="M330 680c160-118 415-97 570 12" fill="none" stroke="#d8a545" stroke-width="24" stroke-linecap="round" opacity=".34"/>
+    <path d="M365 835c145 92 356 105 520 12" fill="none" stroke="#1a0f0b" stroke-width="28" stroke-linecap="round" opacity=".35"/>
+    <path d="M415 580c105-40 235-35 345 8" fill="none" stroke="#fff3cf" stroke-width="14" stroke-linecap="round" opacity=".24"/>
+    <path d="M440 955c120 38 250 40 385 0" fill="none" stroke="#fff3cf" stroke-width="12" stroke-linecap="round" opacity=".2"/>
+  </g>
+  <g fill="#171412" opacity=".82">
+    <rect x="190" y="1205" width="820" height="68"/>
+    <text x="600" y="1253" text-anchor="middle" font-family="Impact, Oswald, sans-serif" font-size="46" fill="#fff8eb" letter-spacing="1">BRISKET IMAGE PLACEHOLDER</text>
+  </g>
+  <g fill="none" stroke="#c14f24" stroke-linecap="round" stroke-width="15" opacity=".38">
+    <path d="M333 304c-45-60 54-80 3-150"/>
+    <path d="M522 275c-48-66 64-88 8-160"/>
+    <path d="M710 300c-48-66 65-88 8-160"/>
+    <path d="M895 330c-45-60 54-80 3-150"/>
+  </g>
+</svg>
