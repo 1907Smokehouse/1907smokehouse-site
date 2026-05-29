@@ -262,13 +262,13 @@ h3 {
   aspect-ratio: 4 / 5;
 }
 
-.hero-media::after {
-  position: absolute;
-  inset: 18px;
-  border: 1px solid rgba(255, 248, 235, 0.18);
-  content: "";
-  pointer-events: none;
-}
+/* .hero-media::after {
+    position: absolute;
+    inset: 18px;
+    border: 1px solid rgba(255, 248, 235, 0.18);
+    content: "";
+    pointer-events: none;
+} */
 
 .hero-media img {
   width: 100%;
