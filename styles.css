@@ -495,7 +495,7 @@ h3 {
   }
 }
 .brand-logo {
-  height: 55px;
-  width: auto;
-  display: block;
+    height: 100px;
+    width: auto;
+    display: block;
 }
