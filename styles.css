@@ -256,10 +256,8 @@ h3 {
 .hero-media {
   position: relative;
   overflow: hidden;
-  border: 1px solid rgba(216, 165, 69, 0.34);
-  background:
-    linear-gradient(145deg, rgba(120, 129, 93, 0.2), transparent 42%),
-    linear-gradient(180deg, rgba(255, 248, 235, 0.12), rgba(23, 20, 18, 0.2));
+  border: none;
+  background: none;
   box-shadow: var(--shadow);
   aspect-ratio: 4 / 5;
 }
