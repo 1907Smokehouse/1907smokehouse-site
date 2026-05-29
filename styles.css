@@ -132,7 +132,7 @@ h3 {
   display: grid;
   grid-template-columns: minmax(0, 1.04fr) minmax(300px, 0.96fr);
   gap: clamp(28px, 5vw, 68px);
-  align-items: center;
+  align-items: start;
   min-height: auto;
   padding: clamp(24px, 4vw, 48px) ... clamp(18px, 5vw, 72px) 36px;
 }
