@@ -494,3 +494,10 @@ h3 {
     display: flex;
   }
 }
+.brand-logo {
+  height: 72px;
+  width: auto;
+  max-width: 220px;
+  display: block;
+  object-fit: contain;
+}
